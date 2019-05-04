@@ -58,6 +58,8 @@ The next command will configure your catkin workspace: ::
   catkin config --extend /opt/ros/${ROS_DISTRO} --cmake-args -DCMAKE_BUILD_TYPE=Release
   catkin build
 
+If you the the error <catkin: command not found> , then try it after running <sudo apt-get install python-catkin-tools>  
+
 Source the catkin workspace: ::
 
   source ~/ws_moveit/devel/setup.bash
